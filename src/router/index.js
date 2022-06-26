@@ -4,7 +4,9 @@ import qrcode from "@/views/qrcode";
 import wxShare from "@/views/wxShare";
 import pdfpage from "@/views/pdfpage";
 import PDFVue from "@/views/PDFVue";
-
+import PDFicon from "../views/PDFicon";
+import PDFiconTwo from "../views/PDFiconTwo";
+import PDFAuto from "../views/PDFAuto";
 Vue.use(VueRouter)
 
 const routes = [
@@ -32,6 +34,21 @@ const routes = [
     path: '/pdfPage',
     name: 'PDFVue',
     component: PDFVue
+  },
+  {
+    path: '/pdfIcon',
+    name: 'PDFicon',
+    component: PDFicon
+  },
+  {
+    path: '/pdfIconTwo',
+    name: 'PDFiconTwo',
+    component: PDFiconTwo
+  },
+  {
+    path: '/autoPDF',
+    name: 'PDFAuto',
+    component: PDFAuto
   },
 ]
 

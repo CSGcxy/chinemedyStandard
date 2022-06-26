@@ -7,7 +7,10 @@
       </div>
       <div>
         <router-link to='/pdf'>PDF展示</router-link><br><br>
-        <router-link to='/pdfPage'>PDF分页展示</router-link>
+        <router-link to='/pdfPage'>PDF分页展示</router-link><br><br>
+        <router-link to='/pdfIcon'>单个PDF展示</router-link><br><br>
+        <router-link to='/pdfIconTwo'>双PDF展示</router-link><br><br>
+        <router-link to='/autoPDF'>动态PDF展示</router-link><br><br>
       </div>
     </div>
 <!--    <el-button type="text" @click="centerDialogVisible = true">点击转发政策</el-button>-->

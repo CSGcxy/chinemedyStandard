@@ -22,4 +22,8 @@ export default {
     -ms-user-select:none;
     user-select:none;
   }
+  #app{
+    height:100%;
+    width:100%;
+  }
 </style>
